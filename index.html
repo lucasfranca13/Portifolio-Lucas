@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Lucas França | Portifólio</title>
+</head>
+
+<body>
+
+    <div class="particulas"></div>
+
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+            <li>
+                <a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li>
+                <a href="#contatos" class="menu-link">Contatos</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <img src="img/Foto-perfil.png" alt="Foto de Lucas França" class="foto-perfil">
+        <h1>Lucas França</h1>
+        <p class="cabecalho-sub-titulo">Desenvolvedor de Software</p>
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Estudante do 5º período de Sistemas de Informação na Faculdade Cotemig.
+                Analista de Suporte de Sistemas na Group Software com foco em SQL Server,
+                monitoramento de queries e testes de APIs REST/SOAP via Postman e SoapUI.
+                Possuo formação técnica em Redes pelo SENAI e busco transição para o desenvolvimento
+                Fullstack em Java, C# .NET, SQL e tecnologias Web (HTML/CSS/JS), aplicando soluções com IA.
+            </p>
+
+            <div class="skills-container">
+                <h3 class="skills-subtitulo">Tecnologias e Ferramentas</h3>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="devicon-csharp-plain"></i><span>C#</span></div>
+                    <div class="skill-item"><i class="devicon-dotnetcore-plain"></i><span>.NET</span></div>
+                    <div class="skill-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+
+                    <div class="skill-item"><i class="devicon-microsoftsqlserver-plain"></i><span>SQL Server</span>
+                    </div>
+                    <div class="skill-item"><i class="devicon-oracle-original"></i><span>Oracle</span></div>
+                    <div class="skill-item"><i class="devicon-mysql-plain"></i><span>MySQL</span></div>
+
+                    <div class="skill-item"><i class="devicon-html5-plain"></i><span>HTML5</span></div>
+                    <div class="skill-item"><i class="devicon-css3-plain"></i><span>CSS3</span></div>
+                    <div class="skill-item"><i class="devicon-javascript-plain"></i><span>JS</span></div>
+
+                    <div class="skill-item"><i class="devicon-git-plain"></i><span>Git</span></div>
+                    <div class="skill-item"><i class="devicon-postman-plain"></i><span>Postman</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="sobre">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="img/site-android.png" alt="Portal Android" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Interface Web Responsiva</h3>
+                    <p class="paragrafo-projetos">
+                        Portal informativo desenvolvido para consolidar conhecimentos em <strong>HTML5</strong> e
+                        <strong>CSS3</strong>, com foco em design responsivo e semântica web.
+                    </p>
+                    <div class="projeto-techs">
+                        <span class="tech-badge">HTML5</span>
+                        <span class="tech-badge">CSS3</span>
+                        <span class="tech-badge">Design Responsivo</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="projetos-card">
+                <img src="img/labirinto_threads.png" alt="Labirinto Threads Java" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Algoritmos e Multithreading</h3>
+                    <p class="paragrafo-projetos">
+                        Simulador de labirinto desenvolvido em <strong>Java</strong> para estudo de concorrência, onde
+                        cada agente opera em uma thread independente utilizando <strong>JavaFX</strong> para mostrar
+                        visualmente como tudo ocorre.
+                    </p>
+                    <div class="projeto-techs">
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Threads</span>
+                        <span class="tech-badge">JavaFX</span>
+                        <span class="tech-badge">POO</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/modelagem_bd-oracle.png" alt="Modelagem de Dados Oracle" class="projetos-imagem">
+                <div class="caixa-textos-projeto">
+                    <h3 class="info-projetos">Banco de Dados Relacional</h3>
+                    <p class="paragrafo-projetos">
+                        Modelagem e implementação completa de um sistema laboratorial no <strong>SGBD Oracle</strong>,
+                        com lógica interna via <strong>Procedures</strong>, <strong>Triggers</strong> e
+                        <strong>Views</strong>.
+                    </p>
+                    <div class="projeto-techs">
+                        <span class="tech-badge">Oracle SQL</span>
+                        <span class="tech-badge">PL/SQL</span>
+                        <span class="tech-badge">Modelagem ER</span>
+                        <span class="tech-badge">Database Design</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+
+        <form class="formulario-contato" action="https://formspree.io/f/xykgbppy" method="POST">
+            <input type="text" name="_gotcha" style="display:none">
+
+            <div class="grupo-form">
+                <input type="text" name="nome" placeholder="Nome" class="campo-form" id="nome" required>
+            </div>
+
+            <div class="grupo-form">
+                <input type="email" name="email" placeholder="Seu E-mail" class="campo-form" id="email" required>
+            </div>
+
+            <div class="grupo-form">
+                <textarea name="mensagem" class="campo-form" placeholder="Digite sua Mensagem" rows="6" id="mensagem"
+                    required></textarea>
+            </div>
+
+            <div class="g-recaptcha" data-sitekey="6Lc7CTQsAAAAAFvYo5BGHjPGAPmj-pRpaMqv8GrQ"
+                style="margin-bottom: 1.5rem;"></div>
+
+            <button type="submit" class="botao-form">Enviar E-mail</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+
+    <script src="https://www.google.com/recaptcha/api.js?hl=pt-BR" async defer></script>
+
+    <footer class="rodape">
+    <div class="rodape-conteudo">
+        <p>&copy; 2026 Lucas França. Desenvolvimento de Software.</p>
+        <div class="redes-sociais-footer">
+            <a href="http://linkedin.com/in/lucasfranca13" target="_blank" class="btn-social">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/lucasfranca13" target="_blank" class="btn-social">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+    </div>
+</footer>
+
+</body>
+
+</html>
