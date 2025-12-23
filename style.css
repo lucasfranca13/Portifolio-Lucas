@@ -116,8 +116,11 @@ h1 {
 }
 
 .sobre-paragrafo {
-    text-align: center;
-    font-size: 1.2rem;
+    text-align: left;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    color: var(--claro);
+    opacity: 0.9;
 }
 
 .projetos-titulo {
