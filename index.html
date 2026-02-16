@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="icon" type="image/png" href="img/icone-protifolio.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>Lucas França | Portifólio</title>
@@ -42,11 +43,13 @@
         <h2 class="sobre-titulo">Sobre Mim</h2>
         <div class="sobre-caixa">
             <p class="sobre-paragrafo">
-                Estudante do 5º período de Sistemas de Informação na Faculdade Cotemig.
-                Analista de Suporte de Sistemas na Group Software com foco em SQL Server,
-                monitoramento de queries e testes de APIs REST/SOAP via Postman e SoapUI.
-                Possuo formação técnica em Redes pelo SENAI e busco transição para o desenvolvimento
-                Fullstack em Java, C# .NET, SQL e tecnologias Web (HTML/CSS/JS), aplicando soluções com IA.
+                Estudante de Sistemas de Informação na Faculdade Cotemig. Atuo como Analista de Suporte de Sistemas, com
+                experiência sólida em SQL Server, monitoramento de queries e testes de APIs REST e SOAP utilizando
+                Postman e
+                SoapUI.
+                Tenho foco em desenvolvimento Fullstack, utilizando tecnologias como Java com Spring Boot, C# com .NET,
+                SQL e desenvolvimento Web com HTML, CSS e JavaScript, além de interesse na criação de soluções com
+                Inteligência Artificial.
             </p>
 
             <div class="skills-container">
@@ -55,6 +58,7 @@
                     <div class="skill-item"><i class="devicon-csharp-plain"></i><span>C#</span></div>
                     <div class="skill-item"><i class="devicon-dotnetcore-plain"></i><span>.NET</span></div>
                     <div class="skill-item"><i class="devicon-java-plain"></i><span>Java</span></div>
+                    <div class="skill-item"><i class="devicon-spring-plain"></i><span>Spring Boot</span></div>
 
                     <div class="skill-item"><i class="devicon-microsoftsqlserver-plain"></i><span>SQL Server</span>
                     </div>
@@ -89,24 +93,51 @@
                         <span class="tech-badge">CSS3</span>
                         <span class="tech-badge">Design Responsivo</span>
                     </div>
+
+                    <div class="projeto-links">
+                        <a href="https://lucasfranca13.github.io/projeto-android/" target="_blank" class="btn-projeto">
+                            <i class="fas fa-globe"></i> Ver Projeto
+                        </a>
+                        <a href="https://github.com/lucasfranca13/projeto-android" target="_blank"
+                            class="btn-projeto btn-projeto-sec">
+                            <i class="fab fa-github"></i> Código
+                        </a>
+                    </div>
+
                 </div>
             </div>
 
 
             <div class="projetos-card">
-                <img src="img/labirinto_threads.png" alt="Labirinto Threads Java" class="projetos-imagem">
+                <img src="img/todolist-api-postman.png" alt="TodoList - API REST com Spring Boot"
+                    class="projetos-imagem">
+
                 <div class="caixa-textos-projeto">
-                    <h3 class="info-projetos">Algoritmos e Multithreading</h3>
+                    <h3 class="info-projetos">API de Lista de Tarefas | Spring Boot</h3>
+
                     <p class="paragrafo-projetos">
-                        Simulador de labirinto desenvolvido em <strong>Java</strong> para estudo de concorrência, onde
-                        cada agente opera em uma thread independente utilizando <strong>JavaFX</strong> para mostrar
-                        visualmente como tudo ocorre.
+                        API REST desenvolvida em <strong>Java com Spring Boot</strong> para gerenciamento de tarefas.
+                        O projeto conta com autenticação de usuários, operações CRUD completas e integração com
+                        banco de dados relacional. Aplicação estruturada seguindo boas práticas e disponível online.
                     </p>
+
                     <div class="projeto-techs">
                         <span class="tech-badge">Java</span>
-                        <span class="tech-badge">Threads</span>
-                        <span class="tech-badge">JavaFX</span>
-                        <span class="tech-badge">POO</span>
+                        <span class="tech-badge">Spring Boot</span>
+                        <span class="tech-badge">REST API</span>
+                        <span class="tech-badge">JPA / Hibernate</span>
+                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">Docker</span>
+                    </div>
+
+                    <div class="projeto-links">
+                        <a href="https://todolist-spring-apirest.onrender.com/" target="_blank" class="btn-projeto">
+                            <i class="fas fa-globe"></i> Ver Projeto
+                        </a>
+                        <a href="https://github.com/lucasfranca13/todolist-spring-apiRest" target="_blank"
+                            class="btn-projeto btn-projeto-sec">
+                            <i class="fab fa-github"></i> Código
+                        </a>
                     </div>
                 </div>
             </div>
@@ -126,6 +157,14 @@
                         <span class="tech-badge">Modelagem ER</span>
                         <span class="tech-badge">Database Design</span>
                     </div>
+
+                    <div class="projeto-links">
+                        <a href="https://github.com/lucasfranca13/laboratorio-analise-db" target="_blank"
+                            class="btn-projeto btn-projeto-sec">
+                            <i class="fab fa-github"></i> Código
+                        </a>
+                    </div>
+
                 </div>
             </div>
 
@@ -164,18 +203,18 @@
     <script src="https://www.google.com/recaptcha/api.js?hl=pt-BR" async defer></script>
 
     <footer class="rodape">
-    <div class="rodape-conteudo">
-        <p>&copy; 2026 Lucas França. Desenvolvimento de Software.</p>
-        <div class="redes-sociais-footer">
-            <a href="http://linkedin.com/in/lucasfranca13" target="_blank" class="btn-social">
-                <i class="fab fa-linkedin"></i> LinkedIn
-            </a>
-            <a href="https://github.com/lucasfranca13" target="_blank" class="btn-social">
-                <i class="fab fa-github"></i> GitHub
-            </a>
+        <div class="rodape-conteudo">
+            <p>&copy; 2026 Lucas França. Desenvolvimento de Software.</p>
+            <div class="redes-sociais-footer">
+                <a href="http://linkedin.com/in/lucasfranca13" target="_blank" class="btn-social">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/lucasfranca13" target="_blank" class="btn-social">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 </body>
 
